@@ -458,7 +458,52 @@ Ul -> ul
 그림 7-19에 빨간 박스가 주소표시줄의 url을 가리키도록 해주세요.
 
 
+# 8장
+그 가장 좋은 예제가 농촌경제연구원에서 발표한 세계 곡물 가격 데이터입니다.
+우리가 배워야 하는 것이 '데이터 위치 찾는 방법'과 '받은 데이터 가공하기'이렇게 두 가지인데 그 것을 해보기에 쉽게 정리되어 있습니다.
 
+=>
+
+이번 장에서는 JSON이라는 데이터 형식이 어떻게 구성 되어있고 어떻게 사용하는지에 대해 배워보도록 하겠습니다.
+
+수정한 내용:
+내용 바뀜
+----------------------------------
+
+# 9장
+
+241p
+Client-Id, Client-Secret은 각각 다음과 같습니다. H1DC13DICQ8zIK84XwWn,
+8sUQqFukKQ 이걸 넣고 호출을 해야 API가 호출됩니다.
+
+=>
+Client-Id, Client-Secret은 각각 다음과 같습니다. H1DC13DICQ8zIK84XwWn,
+8sUQqFukKQ 이걸 넣고 호출을 해야 API가 호출됩니다.
+
+위 Client-Id와 Client-Secret은 제가 발급 받은 것이기 때문에 여러분들이 새로 발급 받아서 사용하시기 바랍니다.
+
+수정한 내용:
+설명 한줄 추가
+----------------------------------
+
+242p
+Requests 라이브러리를 사용하면 API 호출을 조금 편하게 할 수 있습니다.
+=>
+requests 라이브러리를 사용하면 API 호출을 조금 편하게 할 수 있습니다.
+수정한 내용:
+대소문자 변경 Requests -> requests
+----------------------------------
+
+272p
+앞에서 JSON에 대해서 배웠습니다. 이번 장에서는 JSON 데이터를 호출해서 엑셀에서 사용할 수 있게 가공한 후에 그래프까지 그려보겠습니다.
+
+=>
+
+앞에서 API호출하는 방법과 JSON에 대해서 배웠습니다. 이번 장에서는 JSON 데이터를 호출해서 엑셀에서 사용할 수 있게 가공한 후에 그래프까지 그려보겠습니다.
+
+수정한 내용:
+
+----------------------------------
 
 # 키워드
 
@@ -467,14 +512,13 @@ Ul -> ul
 파이썬
 프로그래밍
 코딩
-
+변수
+변수명
 
 ## 2장
 파이썬3
 파이참
 pycharm
-
-2.3
 프로젝트
 project
 디렉토리
@@ -483,23 +527,63 @@ project
 git
 프로젝트 루트
 프로젝트 익스플로러
-
-2.4
 패키지
 package
 모듈
 소스코드
+hello(넣어주세요) 
 
-2.5
-hello 
+## 3장
+변수
+상수
+if문
+elif
+함수(Function)
+def
+파라미터(Parameter)
+매개 변수
+리턴(Return)
+합성 함수
+반복문 for
+range()
+list()
+배열(Array)
+숫자형 데이터
+type()
+네이밍
+문자열 데이터(String)
+인덱싱(Indexing)
+find()
+split()
+replace()
+count()
+리스트(List)
+append()
+insert()
+remove()
+del
+sort()
+딕셔너리
+get()
+keys()
+values()
+items()
+라이브러리
+패키지(package)
+Interpreter
+
+4장
+HTML
+프로토콜
+URL
+태그 
+
+
 
 ## 5장 
-5.1
 크롬
 chrome
 스크래핑
-
-5.2
 urllib
 url
 import
@@ -514,9 +598,6 @@ scraping
 crawling
 크롤러
 crawler
-
-
-* 5.3
 뷰티풀솝
 beautifulsoup
 urllib.request
@@ -535,17 +616,19 @@ index
 리스트
 list
 class
+클래스
 id
 ul
 li
-
-
-5.4
-
-
-5.5
+개발자 도구
+div
+h1
+h2
 []
 대괄호
+span
+.text
+
 
 6장
 인덱스
@@ -554,3 +637,81 @@ index
 dictionary
 parameter
 파라메터
+request
+response
+리퀘스트
+리스폰스
+클래스
+class
+bs4
+requests
+서브페이지
+a
+href
+function
+함수
+
+7장
+리턴
+return
+
+
+
+# 8장
+json
+제이썬
+API
+item
+key
+키
+중괄호
+{}
+엑셀
+데이터 나누기
+
+# 9장
+API토큰
+API시크릿
+네이버 개발자센터
+Client ID
+Client Secret
+온라인 제이썬 뷰어
+Online Json Viewer
+장-절
+트리구조
+키값
+키워드
+페이징
+str()
+
+# 10장
+XHR
+Headers
+차트
+
+## 11장
+공공 데이터 포털
+Endpoint
+REST API
+응답 메시지
+xml
+파일 입출력
+readlines()
+literal_eval()
+ast
+커리어넷
+
+
+## 12장
+Git
+VCS
+GitHub
+리포지토리(Repository)
+Push
+Commit
+Branch
+Checkout
+clone
+마크다운(Markdown)
+Readme.md
+오픈소스
